@@ -1,0 +1,48 @@
+.about-h1-Dark{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-h1-Light{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.about-p-Dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-p-Light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+
+.about-hr-Dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 33%;
+    margin: auto;
+}
+
+.about-hr-Light{
+    display: flex;
+    margin: auto;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

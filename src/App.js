@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import { useState } from 'react';
 import Alert from './components/Alert';
+import About from './components/About';
 
 function App() {
   const [mode, setmode] = useState('Light');
@@ -30,6 +31,7 @@ function App() {
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert}/>
       <TextForm showAlert={showAlert} heading="Enter your text to analyze" mode={mode}/>
+      <About mode={mode}/>
     </>
   );
 }
