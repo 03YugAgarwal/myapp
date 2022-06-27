@@ -95,6 +95,12 @@
     padding: 1rem;
     font-size: 1.2rem;
     box-shadow: 3px 2px 5px gray;
+
+}
+
+textarea {
+    width: 700px;
+    height: 200px;
 }
 
 .container-Dark .btn{
@@ -140,4 +146,57 @@
     color: white;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+@media only screen and (min-width: 950px) {
+    
+
+}
+
+@media only screen and (max-width: 950px) {
+    
+    textarea {
+        width: 500px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    .container-Dark .btn-primary{
+        padding: 0.1rem;
+        font-size: 0.7rem;
+        margin: 5px;
+    }
+    .container-Dark .btn-secondary{
+        
+        padding: 0.1rem;
+        font-size: 0.7rem;
+        margin: 5px;
+    }
+    
+    .container-Light .btn-primary{
+        padding: 0.1rem;
+        font-size: 0.7rem;
+        margin: 5px;
+        
+    }
+    .container-Light .btn-secondary{
+        padding: 0.1rem;
+        font-size: 0.7rem;
+        margin: 5px;
+    }
+
+    .textSummary div p{
+        margin: none;
+        padding: none;
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+
+    }
+
 }

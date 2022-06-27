@@ -27,7 +27,7 @@ export default function TextForm(props) {
         <div className={`container-${props.mode}`}>   
             <div className="text">
                 <label htmlFor="myBox" className="text-label">{props.heading}</label>
-                <textarea name="" id="myBox" value={text} onChange={handleOnChange} cols="70" rows="8"></textarea>
+                <textarea name="" id="myBox" value={text} onChange={handleOnChange}></textarea>
             </div>
             <div className="btn">
                 <button className="btn-primary" onClick={handleUpClick} >Convert To UpperCase</button>
