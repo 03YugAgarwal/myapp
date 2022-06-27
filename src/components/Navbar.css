@@ -8,11 +8,19 @@
   background-color: #222831;
   color: #00ADB5;
 }
- h1{
+h1{
   margin-right: auto;
   font-size: 2.2rem;
   margin-left: 20px;
   cursor: default;
+}
+.Dark{
+  text-decoration: none;
+  color: #00ADB5;
+}
+.Light{
+  text-decoration: none;
+  color: #EEEEEE;
 }
 
 .nav-Dark ul{
