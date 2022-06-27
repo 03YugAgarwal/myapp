@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-Light .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-Light .text-label{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.container-Light #myBox{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 3px 2px 5px gray;
+}
+
+.container-Light .btn{
+    margin: 30px;
+}
+.container-Light button{
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container-Light .btn-primary{
+    padding: 0.4rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+.container-Light .btn-secondary{
+    padding: 0.4rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.container-Light{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-Light h1{
+    font-size: 1.7rem;
+    margin: 20px;
+}
+
+.container-Light p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* .textSummary{
+    border: 2px solid red;
+} */
+
+
+
+.container-Dark .text{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-Dark .text-label{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.container-Dark #myBox{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 3px 2px 5px gray;
+}
+
+.container-Dark .btn{
+    margin: 30px;
+}
+.container-Dark button{
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container-Dark .btn-primary{
+    padding: 0.4rem;
+    background-color: #00ADB5;
+    border: 1px solid #00ADB5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+.container-Dark .btn-secondary{
+    border-radius: 5px;
+    padding: 0.4rem;
+    background-color: #00ADB5;
+    border: 1px solid #00ADB5;
+    box-shadow: 1px 1px 5px black;
+}
+
+.container-Dark{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-Dark h1{
+    font-size: 1.7rem;
+    margin: 20px;
+    color: white;
+}
+
+.container-Dark p{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
